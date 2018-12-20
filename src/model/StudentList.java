@@ -133,22 +133,22 @@ public class StudentList implements Collection<Student> {
 
     @Override
     public boolean containsAll(Collection<?> c) {
-        return false;
+        throw new UnsupportedOperationException("containsAll is not implemented!");
     }
 
     @Override
     public boolean addAll(Collection<? extends Student> c) {
-        return false;
+        throw new UnsupportedOperationException("addAll is not implemented!");
     }
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        return false;
+        throw new UnsupportedOperationException("removeAll is not implemented!");
     }
 
     @Override
     public boolean retainAll(Collection<?> c) {
-        return false;
+        throw new UnsupportedOperationException("retainAll is not implemented!");
     }
 
     @Override
